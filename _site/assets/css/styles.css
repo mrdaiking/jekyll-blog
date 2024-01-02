@@ -1,0 +1,12 @@
+/* assets/css/styles.css */
+
+.my-custom-class {
+  color: #ff0000; /* Customize the color */
+  font-weight: bold; /* Customize other styles */
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+  }
+  
