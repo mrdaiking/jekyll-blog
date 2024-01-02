@@ -1,0 +1,33 @@
+# Directory for Jekyll build output
+# _site/
+
+# Gems
+# vendor/bundle/
+# Gemfile.lock
+
+# Jekyll configuration file
+_config.yml
+
+# Environment variables file
+.env
+
+# Jekyll serve files
+# .jekyll-cache/
+# .jekyll-metadata
+
+# Docker-related files
+.dockerignore
+Dockerfile
+.docker/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Ignore the Jekyll cache and files generated during the build
+# .jekyll-cache/
+# .jekyll-metadata
