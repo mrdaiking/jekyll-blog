@@ -3,7 +3,7 @@
 
 # Gems
 # vendor/bundle/
-# Gemfile.lock
+Gemfile.lock
 
 # Jekyll configuration file
 _config.yml
@@ -17,7 +17,7 @@ _config.yml
 
 # Docker-related files
 .dockerignore
-Dockerfile
+#Dockerfile
 .docker/
 
 # System files
