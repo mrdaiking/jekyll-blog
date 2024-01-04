@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Custom Class Post"
+title: "My Custom Class Post- Edited 1"
 ---
 
 This is a paragraph with a custom class: <span class="my-custom-class">Custom Text</span>.

@@ -1,7 +1,16 @@
+version: "3"
+
 services:
-  jekyll:
-    image: bretfisher/jekyll-serve
+  my-jekyll-container:
+    image: my-ruby-env:latest # Replace with the actual image name
+    container_name: jekyll-blog
+    restart: always
+    tty: true
     volumes:
-      - .:/site
+      - ./app:/app
+      - ./conf:/etc/nginx/conf.d
     ports:
-      - "4000:4000"
+      - "80:80"
+networks:
+  my-network:
+    driver: bridge
